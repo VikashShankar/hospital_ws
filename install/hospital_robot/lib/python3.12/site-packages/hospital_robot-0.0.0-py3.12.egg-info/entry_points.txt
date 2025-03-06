@@ -1,0 +1,3 @@
+[console_scripts]
+move_robot = hospital_robot.move_robot:main
+odomm = hospital_robot.odomm:main

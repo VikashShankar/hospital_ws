@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/hospital_world/hospital_world.egg-info/PKG-INFO
+../../build/hospital_world/hospital_world.egg-info/SOURCES.txt
+../../build/hospital_world/hospital_world.egg-info/dependency_links.txt
+../../build/hospital_world/hospital_world.egg-info/requires.txt
+../../build/hospital_world/hospital_world.egg-info/top_level.txt
+../../build/hospital_world/hospital_world.egg-info/zip-safe
+hospital_world/__init__.py
+launch/hospital_world.launch.py
+resource/hospital_world
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+worlds/hospital_world.sdf

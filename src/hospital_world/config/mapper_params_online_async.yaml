@@ -1,0 +1,5 @@
+odom_frame: odom             # Name of the frame representing odometry data
+base_frame: base_link        # Name of the frame representing the robot's base
+map_frame: map               # Name of the frame representing the map
+scan_topic: /scan            # Topic name for the laser scan data
+message_filter_queue_size: 100  # Size of the message filter queue to handle more messages

@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/hospital_hardware/hospital_hardware.egg-info
+writing ../../build/hospital_hardware/hospital_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_hardware/hospital_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/hospital_hardware/hospital_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_hardware/hospital_hardware.egg-info/requires.txt
+writing top-level names to ../../build/hospital_hardware/hospital_hardware.egg-info/top_level.txt
+writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+reading manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_hardware/hospital_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi5/hospital/build/hospital_hardware/build
+creating /home/pi5/hospital/build/hospital_hardware/build/lib
+creating /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware
+copying hospital_hardware/motor_control.py -> /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware
+copying hospital_hardware/motor_control_with_encoder.py -> /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware
+copying hospital_hardware/__init__.py -> /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware
+running install
+running install_lib
+creating /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+copying /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware/motor_control.py -> /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+copying /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware/motor_control_with_encoder.py -> /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+copying /home/pi5/hospital/build/hospital_hardware/build/lib/hospital_hardware/__init__.py -> /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware
+byte-compiling /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/motor_control.py to motor_control.cpython-312.pyc
+byte-compiling /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/motor_control_with_encoder.py to motor_control_with_encoder.cpython-312.pyc
+byte-compiling /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/pi5/hospital/install/hospital_hardware/share/ament_index
+creating /home/pi5/hospital/install/hospital_hardware/share/ament_index/resource_index
+creating /home/pi5/hospital/install/hospital_hardware/share/ament_index/resource_index/packages
+copying resource/hospital_hardware -> /home/pi5/hospital/install/hospital_hardware/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware
+creating /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware/launch
+copying launch/hardware.launch.py -> /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware/launch
+copying launch/visualize.launch.py -> /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware/launch
+creating /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware/urdf
+copying urdf/robot.urdf -> /home/pi5/hospital/install/hospital_hardware/share/hospital_hardware/urdf
+running install_egg_info
+Copying ../../build/hospital_hardware/hospital_hardware.egg-info to /home/pi5/hospital/install/hospital_hardware/lib/python3.12/site-packages/hospital_hardware-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motor_control script to /home/pi5/hospital/install/hospital_hardware/lib/hospital_hardware
+Installing motor_control_with_encoder script to /home/pi5/hospital/install/hospital_hardware/lib/hospital_hardware
+writing list of installed files to '/home/pi5/hospital/build/hospital_hardware/install.log'
